@@ -1,0 +1,340 @@
+{
+  "Apple___Apple_scab": {
+    "name": { "en": "Apple - Apple scab", "hi": "सेब - एप्पल स्कैब" },
+    "why": { "en": "Fungal disease favored by cool, wet weather.", "hi": "ठंडे, गीले मौसम में होने वाला फफूंद रोग।" },
+    "fertilizer": "Use balanced NPK fertilizer; add compost.",
+    "remedy": {
+      "humid": "Apply fungicide sprays (captan or mancozeb).",
+      "dry": "Maintain irrigation and prune infected leaves.",
+      "default": "Remove fallen leaves and use resistant varieties."
+    }
+  },
+  "Apple___Black_rot": {
+    "name": { "en": "Apple - Black rot", "hi": "सेब - ब्लैक रॉट" },
+    "why": { "en": "Caused by fungi in warm, humid weather.", "hi": "गर्म, आर्द्र मौसम में फफूंद से होता है।" },
+    "fertilizer": "Apply phosphorus-rich fertilizer.",
+    "remedy": {
+      "humid": "Use fungicide sprays and remove mummified fruits.",
+      "dry": "Irrigate consistently and prune infected twigs.",
+      "default": "Maintain orchard sanitation and rotate crops."
+    }
+  },
+  "Apple___Cedar_apple_rust": {
+    "name": { "en": "Apple - Cedar apple rust", "hi": "सेब - सीडर एप्पल रस्ट" },
+    "why": { "en": "Spreads from nearby cedar trees during wet spring.", "hi": "बरसात के मौसम में पास के देवदार पेड़ों से फैलता है।" },
+    "fertilizer": "Use potassium-rich fertilizer.",
+    "remedy": {
+      "humid": "Apply fungicide (myclobutanil).",
+      "dry": "Prune galls on cedar trees.",
+      "default": "Avoid planting apples near cedar trees."
+    }
+  },
+  "Apple___healthy": {
+    "name": { "en": "Apple - Healthy", "hi": "सेब - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Maintain balanced NPK and compost.",
+    "remedy": { "default": "No action needed. Continue regular care." }
+  },
+  "Background_without_leaves": {
+    "name": { "en": "Background without leaves", "hi": "पत्तों के बिना पृष्ठभूमि" },
+    "why": { "en": "Not a plant leaf.", "hi": "यह पौधे की पत्ती नहीं है।" },
+    "fertilizer": "N/A",
+    "remedy": { "default": "Upload a clear image of a plant leaf." }
+  },
+  "Blueberry___healthy": {
+    "name": { "en": "Blueberry - Healthy", "hi": "ब्लूबेरी - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Use acidic fertilizer with ammonium sulfate.",
+    "remedy": { "default": "No action needed. Maintain soil pH 4.5–5.5." }
+  },
+  "Cherry___Powdery_mildew": {
+    "name": { "en": "Cherry - Powdery mildew", "hi": "चेरी - पाउडरी फफूंदी" },
+    "why": { "en": "Caused by fungal spores thriving in humid weather.", "hi": "नमी वाले मौसम में पनपने वाले फफूंद बीजाणुओं से होता है।" },
+    "fertilizer": "Apply nitrogen-rich fertilizer.",
+    "remedy": {
+      "humid": "Spray sulfur-based fungicides.",
+      "dry": "Remove infected shoots.",
+      "default": "Use resistant varieties and prune regularly."
+    }
+  },
+  "Cherry___healthy": {
+    "name": { "en": "Cherry - Healthy", "hi": "चेरी - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced fertilizer with compost.",
+    "remedy": { "default": "Maintain orchard hygiene." }
+  },
+  "Corn___Cercospora_leaf_spot Gray_leaf_spot": {
+    "name": { "en": "Corn - Gray leaf spot", "hi": "मक्का - ग्रे लीफ स्पॉट" },
+    "why": { "en": "Fungal disease spreading in humid, warm conditions.", "hi": "गर्म और नमी वाले मौसम में फैलने वाला फफूंद रोग।" },
+    "fertilizer": "Use nitrogen-rich fertilizer and potash.",
+    "remedy": {
+      "humid": "Apply fungicides like strobilurins.",
+      "dry": "Rotate crops and remove debris.",
+      "default": "Plant resistant hybrids."
+    }
+  },
+  "Corn___Common_rust": {
+    "name": { "en": "Corn - Common rust", "hi": "मक्का - कॉमन रस्ट" },
+    "why": { "en": "Occurs in cool, moist weather.", "hi": "ठंडे और नमी वाले मौसम में होता है।" },
+    "fertilizer": "Apply balanced fertilizer.",
+    "remedy": {
+      "humid": "Fungicide sprays required.",
+      "dry": "Encourage airflow in fields.",
+      "default": "Use resistant corn hybrids."
+    }
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "name": { "en": "Corn - Northern Leaf Blight", "hi": "मक्का - नॉर्दर्न लीफ ब्लाइट" },
+    "why": { "en": "Caused by Exserohilum turcicum fungus in cool, humid weather.", "hi": "ठंडे, नमी वाले मौसम में एक्सेरोहिलम टर्किकम फफूंद से होता है।" },
+    "fertilizer": "Add nitrogen and potash fertilizers.",
+    "remedy": {
+      "humid": "Spray fungicide (propiconazole).",
+      "dry": "Rotate crops and remove infected debris.",
+      "default": "Grow resistant varieties."
+    }
+  },
+  "Corn___healthy": {
+    "name": { "en": "Corn - Healthy", "hi": "मक्का - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced NPK and organic manure.",
+    "remedy": { "default": "Continue normal cultivation." }
+  },
+  "Grape___Black_rot": {
+    "name": { "en": "Grape - Black rot", "hi": "अंगूर - ब्लैक रॉट" },
+    "why": { "en": "Fungal disease common in warm, wet climates.", "hi": "गर्म और नमी वाले मौसम में होने वाला फफूंद रोग।" },
+    "fertilizer": "Use potassium-rich fertilizer.",
+    "remedy": {
+      "humid": "Apply fungicides (mancozeb).",
+      "dry": "Prune infected leaves.",
+      "default": "Maintain vineyard hygiene."
+    }
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "name": { "en": "Grape - Esca (Black Measles)", "hi": "अंगूर - एस्का (ब्लैक मीजल्स)" },
+    "why": { "en": "Caused by fungal complex in old vines.", "hi": "पुरानी बेलों में फफूंद संक्रमण से होता है।" },
+    "fertilizer": "Add phosphorus and organic manure.",
+    "remedy": {
+      "humid": "Remove infected wood.",
+      "dry": "Irrigate regularly.",
+      "default": "Replace old vines if severely infected."
+    }
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "name": { "en": "Grape - Leaf blight", "hi": "अंगूर - लीफ ब्लाइट" },
+    "why": { "en": "Caused by fungal pathogen in warm, humid climate.", "hi": "गर्म, नमी वाले मौसम में फफूंद से होता है।" },
+    "fertilizer": "Use potash fertilizer.",
+    "remedy": {
+      "humid": "Spray fungicides (copper-based).",
+      "dry": "Remove affected leaves.",
+      "default": "Improve air circulation in vineyard."
+    }
+  },
+  "Grape___healthy": {
+    "name": { "en": "Grape - Healthy", "hi": "अंगूर - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced NPK and compost.",
+    "remedy": { "default": "Normal vineyard care." }
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "name": { "en": "Orange - Citrus greening (HLB)", "hi": "संतरा - सिट्रस ग्रीनींग" },
+    "why": { "en": "Bacterial disease spread by psyllid insect in warm climate.", "hi": "गर्म मौसम में सायलीड कीट द्वारा फैलाया जाने वाला जीवाणु रोग।" },
+    "fertilizer": "Apply zinc and manganese foliar sprays.",
+    "remedy": {
+      "humid": "Use insecticides to control psyllids.",
+      "dry": "Irrigate and provide micronutrients.",
+      "default": "Remove infected trees if severe."
+    }
+  },
+  "Peach___Bacterial_spot": {
+    "name": { "en": "Peach - Bacterial spot", "hi": "आड़ू - बैक्टीरियल स्पॉट" },
+    "why": { "en": "Spread by bacteria in warm, wet conditions.", "hi": "गर्म, नमी वाले मौसम में बैक्टीरिया से फैलता है।" },
+    "fertilizer": "Apply balanced fertilizer with calcium.",
+    "remedy": {
+      "humid": "Spray copper-based bactericides.",
+      "dry": "Remove infected fruit and twigs.",
+      "default": "Use resistant peach varieties."
+    }
+  },
+  "Peach___healthy": {
+    "name": { "en": "Peach - Healthy", "hi": "आड़ू - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced organic fertilizer.",
+    "remedy": { "default": "Normal orchard care." }
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "name": { "en": "Bell Pepper - Bacterial spot", "hi": "शिमला मिर्च - बैक्टीरियल स्पॉट" },
+    "why": { "en": "Occurs in hot, wet climates.", "hi": "गर्म और नमी वाले मौसम में होता है।" },
+    "fertilizer": "Use nitrogen-rich fertilizer.",
+    "remedy": {
+      "humid": "Spray copper-based fungicides.",
+      "dry": "Remove affected plants.",
+      "default": "Rotate crops to reduce bacteria load."
+    }
+  },
+  "Pepper,_bell___healthy": {
+    "name": { "en": "Bell Pepper - Healthy", "hi": "शिमला मिर्च - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced fertilizer with micronutrients.",
+    "remedy": { "default": "Continue crop care." }
+  },
+  "Potato___Early_blight": {
+    "name": { "en": "Potato - Early blight", "hi": "आलू - अर्ली ब्लाइट" },
+    "why": { "en": "Caused by Alternaria fungus in warm, humid climate.", "hi": "गर्म और नमी वाले मौसम में अल्टरनेरिया फफूंद से होता है।" },
+    "fertilizer": "Add nitrogen and potassium fertilizer.",
+    "remedy": {
+      "humid": "Spray chlorothalonil or mancozeb.",
+      "dry": "Remove diseased leaves.",
+      "default": "Rotate crops and avoid overhead irrigation."
+    }
+  },
+  "Potato___Late_blight": {
+    "name": { "en": "Potato - Late blight", "hi": "आलू - लेट ब्लाइट" },
+    "why": { "en": "Caused by Phytophthora infestans fungus in cool, wet weather.", "hi": "ठंडे और गीले मौसम में फाइटोप्थोरा इंफेस्टेंस फफूंद से होता है।" },
+    "fertilizer": "Apply phosphorus fertilizer.",
+    "remedy": {
+      "humid": "Use systemic fungicides (metalaxyl).",
+      "dry": "Remove infected plants.",
+      "default": "Plant resistant potato varieties."
+    }
+  },
+  "Potato___healthy": {
+    "name": { "en": "Potato - Healthy", "hi": "आलू - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced fertilizer with compost.",
+    "remedy": { "default": "Normal care practices." }
+  },
+  "Raspberry___healthy": {
+    "name": { "en": "Raspberry - Healthy", "hi": "रसभरी - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Apply organic fertilizer with potash.",
+    "remedy": { "default": "No action needed." }
+  },
+  "Soybean___healthy": {
+    "name": { "en": "Soybean - Healthy", "hi": "सोयाबीन - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Balanced fertilizer with nitrogen fixers.",
+    "remedy": { "default": "Continue normal practices." }
+  },
+  "Squash___Powdery_mildew": {
+    "name": { "en": "Squash - Powdery mildew", "hi": "कद्दू - पाउडरी फफूंदी" },
+    "why": { "en": "Fungal disease in warm, dry climates.", "hi": "गर्म और शुष्क मौसम में फफूंद रोग।" },
+    "fertilizer": "Apply nitrogen fertilizer.",
+    "remedy": {
+      "humid": "Use fungicides like sulfur sprays.",
+      "dry": "Remove infected leaves.",
+      "default": "Improve ventilation around plants."
+    }
+  },
+  "Strawberry___Leaf_scorch": {
+    "name": { "en": "Strawberry - Leaf scorch", "hi": "स्ट्रॉबेरी - लीफ स्कॉर्च" },
+    "why": { "en": "Fungal disease common in wet, humid climate.", "hi": "नमी वाले मौसम में होने वाला फफूंद रोग।" },
+    "fertilizer": "Balanced fertilizer with potassium.",
+    "remedy": {
+      "humid": "Apply fungicide sprays.",
+      "dry": "Avoid overhead irrigation.",
+      "default": "Use disease-free planting material."
+    }
+  },
+  "Strawberry___healthy": {
+    "name": { "en": "Strawberry - Healthy", "hi": "स्ट्रॉबेरी - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Organic fertilizer and mulching.",
+    "remedy": { "default": "Maintain healthy soil." }
+  },
+  "Tomato___Bacterial_spot": {
+    "name": { "en": "Tomato - Bacterial spot", "hi": "टमाटर - बैक्टीरियल स्पॉट" },
+    "why": { "en": "Caused by bacteria in warm, humid weather.", "hi": "गर्म और नमी वाले मौसम में बैक्टीरिया से होता है।" },
+    "fertilizer": "Use phosphorus and potassium fertilizer.",
+    "remedy": {
+      "humid": "Spray copper-based bactericides.",
+      "dry": "Remove infected plants.",
+      "default": "Rotate crops regularly."
+    }
+  },
+  "Tomato___Early_blight": {
+    "name": { "en": "Tomato - Early blight", "hi": "टमाटर - अर्ली ब्लाइट" },
+    "why": { "en": "Caused by Alternaria solani fungus in warm climate.", "hi": "गर्म मौसम में अल्टरनेरिया सोलानी फफूंद से होता है।" },
+    "fertilizer": "Apply nitrogen fertilizer.",
+    "remedy": {
+      "humid": "Spray chlorothalonil fungicide.",
+      "dry": "Remove diseased leaves.",
+      "default": "Use resistant tomato varieties."
+    }
+  },
+  "Tomato___Late_blight": {
+    "name": { "en": "Tomato - Late blight", "hi": "टमाटर - लेट ब्लाइट" },
+    "why": { "en": "Caused by Phytophthora infestans fungus in cool, wet conditions.", "hi": "ठंडे, गीले मौसम में फाइटोप्थोरा इंफेस्टेंस फफूंद से होता है।" },
+    "fertilizer": "Use phosphorus-rich fertilizer.",
+    "remedy": {
+      "humid": "Apply fungicide (metalaxyl).",
+      "dry": "Destroy infected plants.",
+      "default": "Avoid excessive irrigation."
+    }
+  },
+  "Tomato___Leaf_Mold": {
+    "name": { "en": "Tomato - Leaf mold", "hi": "टमाटर - लीफ मोल्ड" },
+    "why": { "en": "Caused by fungus in humid greenhouse environments.", "hi": "नमी वाली ग्रीनहाउस परिस्थितियों में फफूंद से होता है।" },
+    "fertilizer": "Balanced NPK fertilizer.",
+    "remedy": {
+      "humid": "Apply fungicides (chlorothalonil).",
+      "dry": "Increase ventilation.",
+      "default": "Avoid water on leaves."
+    }
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "name": { "en": "Tomato - Septoria leaf spot", "hi": "टमाटर - सेप्टोरिया लीफ स्पॉट" },
+    "why": { "en": "Caused by Septoria lycopersici fungus in humid weather.", "hi": "नमी वाले मौसम में सेप्टोरिया लाइकोपर्सिसी फफूंद से होता है।" },
+    "fertilizer": "Apply potassium fertilizer.",
+    "remedy": {
+      "humid": "Spray fungicides (chlorothalonil).",
+      "dry": "Remove infected leaves.",
+      "default": "Rotate crops."
+    }
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "name": { "en": "Tomato - Spider mites", "hi": "टमाटर - स्पाइडर माइट्स" },
+    "why": { "en": "Caused by tiny spider mites in hot, dry climate.", "hi": "गर्म और शुष्क मौसम में छोटे स्पाइडर माइट्स से होता है।" },
+    "fertilizer": "Apply organic fertilizer with micronutrients.",
+    "remedy": {
+      "humid": "Encourage natural predators like ladybugs.",
+      "dry": "Spray neem oil or miticides.",
+      "default": "Keep plants hydrated."
+    }
+  },
+  "Tomato___Target_Spot": {
+    "name": { "en": "Tomato - Target spot", "hi": "टमाटर - टारगेट स्पॉट" },
+    "why": { "en": "Fungal disease favored by humid weather.", "hi": "नमी वाले मौसम में होने वाला फफूंद रोग।" },
+    "fertilizer": "Apply phosphorus and potassium fertilizer.",
+    "remedy": {
+      "humid": "Spray fungicides (azoxystrobin).",
+      "dry": "Remove infected leaves.",
+      "default": "Rotate crops and improve airflow."
+    }
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "name": { "en": "Tomato - Yellow Leaf Curl Virus", "hi": "टमाटर - येलो लीफ कर्ल वायरस" },
+    "why": { "en": "Viral disease spread by whiteflies in warm climate.", "hi": "गर्म मौसम में सफेद मक्खियों द्वारा फैलाया जाने वाला वायरल रोग।" },
+    "fertilizer": "Apply balanced fertilizer with zinc.",
+    "remedy": {
+      "humid": "Control whiteflies using insecticides.",
+      "dry": "Remove infected plants.",
+      "default": "Plant resistant tomato varieties."
+    }
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "name": { "en": "Tomato - Mosaic virus", "hi": "टमाटर - मोज़ेक वायरस" },
+    "why": { "en": "Viral disease spread via infected tools and plants.", "hi": "संक्रमित उपकरण और पौधों द्वारा फैलने वाला वायरल रोग।" },
+    "fertilizer": "Balanced fertilizer with nitrogen and potassium.",
+    "remedy": {
+      "humid": "Sanitize tools and avoid tobacco use.",
+      "dry": "Remove and destroy infected plants.",
+      "default": "Plant resistant tomato cultivars."
+    }
+  },
+  "Tomato___healthy": {
+    "name": { "en": "Tomato - Healthy", "hi": "टमाटर - स्वस्थ" },
+    "why": { "en": "No disease detected.", "hi": "कोई बीमारी नहीं पाई गई।" },
+    "fertilizer": "Apply organic compost.",
+    "remedy": { "default": "Continue good farming practices." }
+  }
+}
