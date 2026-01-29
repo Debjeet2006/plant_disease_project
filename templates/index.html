@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plant Disease Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 Plant Disease Recognition System</h1>
+    <p style="text-align:center; color:#555;">
+      Upload a leaf image, enter your city, and get predictions with remedies based on the weather.
+    </p>
+
+    <!-- Upload Form -->
+    <form action="/analyze" method="post" enctype="multipart/form-data" class="upload-form">
+      <div class="form-group">
+        <label for="image">📷 Upload Plant Leaf Image:</label><br>
+        <input type="file" name="image" id="image" accept="image/*" required>
+      </div>
+
+      <div class="form-group">
+        <label for="city">🏙 Enter Your City:</label><br>
+        <input type="text" name="city" id="city" placeholder="e.g. Delhi" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lang">🌍 Select Language:</label><br>
+        <select name="lang" id="lang">
+          <option value="en" selected>English</option>
+          <option value="hi">हिंदी</option>
+        </select>
+      </div>
+
+      <div class="form-group" style="text-align:center;">
+        <button type="submit">🔍 Analyze</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

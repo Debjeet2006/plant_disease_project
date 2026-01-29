@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disease Analysis Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 Plant Disease Analysis</h1>
+
+    <!-- Uploaded Image -->
+    <div class="image-preview">
+      <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded Leaf">
+    </div>
+
+    <!-- Weather Info -->
+    {% if weather %}
+    <div class="weather-card">
+      <h2>🌦️ Current Weather in {{ request.form.city }}</h2>
+      <p><b>Temperature:</b> {{ weather.temp }} °C</p>
+      <p><b>Humidity:</b> {{ weather.humidity }}%</p>
+      <p><b>Description:</b> {{ weather.desc }}</p>
+    </div>
+    {% endif %}
+
+    <!-- Predictions -->
+    {% if predictions|length == 1 %}
+      <h2>✅ Detected Disease</h2>
+      <div class="card single-result">
+        <h3>{{ predictions[0].name }} ({{ predictions[0].prob }}%)</h3>
+        <p><b>Why it occurs:</b> {{ predictions[0].why }}</p>
+        <p><b>Recommended Fertilizer:</b> {{ predictions[0].fertilizer }}</p>
+        <p><b>Suggested Remedy:</b> {{ predictions[0].remedy }}</p>
+      </div>
+    {% else %}
+      <h2>🔍 Top Predictions</h2>
+      <div class="predictions">
+        {% for p in predictions %}
+        <div class="card">
+          <h3>{{ p.name }} ({{ p.prob }}%)</h3>
+          <p><b>Why it occurs:</b> {{ p.why }}</p>
+          <p><b>Recommended Fertilizer:</b> {{ p.fertilizer }}</p>
+          <p><b>Suggested Remedy:</b> {{ p.remedy }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Language Switcher -->
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+      <input type="hidden" name="image" value="{{ image_file }}">
+      <input type="hidden" name="city" value="{{ request.form.city }}">
+      <label for="lang">🌍 Change Language:</label>
+      <select name="lang" id="lang" onchange="this.form.submit()">
+        <option value="en" {% if lang=='en' %}selected{% endif %}>English</option>
+        <option value="hi" {% if lang=='hi' %}selected{% endif %}>हिंदी</option>
+      </select>
+    </form>
+
+    <br>
+    <a href="/">⬅️ Upload Another Image</a>
+  </div>
+</body>
+</html>
+
