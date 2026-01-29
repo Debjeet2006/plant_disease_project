@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f5f0;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #2d572c;
+}
+
+.image-preview img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.predictions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fdfdfd;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+.weather-card {
+  background: #eaf6ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.upload-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+input[type="file"],
+input[type="text"],
+select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 60%;
+  max-width: 300px;
+}
+
+button {
+  background: #2d572c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #244822;
+}
+/* Highlighted style for single prediction */
+.single-result {
+  border: 3px solid #28a745;   /* green border */
+  background-color: #f6fff9;   /* light green background */
+  box-shadow: 0 4px 12px rgba(0, 128, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+.single-result h3 {
+  font-size: 1.6em;
+  color: #1e7e34;
+}
+
+.single-result p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
